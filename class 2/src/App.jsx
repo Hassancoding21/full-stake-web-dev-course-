@@ -1,18 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Whycomparent from './components/Whycomparent'
+// import PropsParent from "./components/Props/PropsParent"
 
+import MyState from "./components/States/MyState"
 
 function App() {
-  
 
   return (
     <>
-      <Whycomparent/>
+
+
+      {/* <Whycomparent/> */}
+     {/* <PropsParent/> */}
+        <MyState/>
      </>
   )
 }
 
 export default App
+                                    
